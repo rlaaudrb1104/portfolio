@@ -82,6 +82,13 @@ export default function Home() {
                     <h3 className={styles.projectTitle}>clerk Project</h3>
                   </div>
                 </Link>
+                <div className={styles.gridItem}>
+                <Link href="https://portfolio-bice-omega-36.vercel.app/">
+                  <div className={styles.gridItemInner}>
+                    <img src="./main/links/clerk-link.jpg"/>
+                    <h3 className={styles.projectTitle}>clerk Project</h3>
+                  </div>
+                </Link>
               </div>
           </div>
           </div>
