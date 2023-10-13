@@ -82,11 +82,12 @@ export default function Home() {
                     <h3 className={styles.projectTitle}>clerk Project</h3>
                   </div>
                 </Link>
-                <div className={styles.gridItem}>
+              </div>
+              <div className={styles.gridItem}>
                 <Link href="https://portfolio-bice-omega-36.vercel.app/">
                   <div className={styles.gridItemInner}>
-                    <img src="./main/links/clerk-link.jpg"/>
-                    <h3 className={styles.projectTitle}>clerk Project</h3>
+                    <img src="./main/links/portfolio-link.jpg"/>
+                    <h3 className={styles.projectTitle}>Portfolio</h3>
                   </div>
                 </Link>
               </div>
@@ -145,11 +146,12 @@ export default function Home() {
                 </Link>
               </li>
               <li>
-                <Link className={styles.contact} href='https://rlaaudrb1104.tstory.com' target='a_blank' rel="noreferrer">
+                <Link className={styles.contact} href='https://www.rlaaudrb1104.tstory.com' rel="noreferrer">
                 <img className={styles.linkIcon} src="./main/contact/blog.png" alt="" />
-                  <span className={styles.contactLink}>https://rlaaudrb1104.tstory.com</span>
+                  <span className={styles.contactLink}>rlaaudrb1104@gmail.com</span>
                 </Link>
               </li>
+              
 
             
               
