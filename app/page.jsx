@@ -53,7 +53,7 @@ export default function Home() {
                 취득 자격증
               </h3>
               <p className={styles.text}>
-              침해대응사고전문가 2급
+              침해사고대응전문가 2급
               </p>
             </div>
           </div>
