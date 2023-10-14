@@ -1,16 +1,25 @@
-
+// app/page.jsx
 import Link from 'next/link'
 import TopText from './components/TopText'
 import mainStyles from './main.module.css'
 import styles from './page.module.css'
+import Header from './components/Header.jsx'
 
 export default function Home() {
+
+  // const props = [
+  // //   { href: '#about', label: 'About' },
+  // //   { href: '#projects', label: 'Projects' },
+  // //   { href: '#Tech_stack', label: 'Tech_stack' },
+  // //   { href: '#contacts', label: 'Contacts' },
+  // // ];
   return (
     <>
       
       <section className={styles.top}>
         <div className={mainStyles.container}>
           <div className={styles.topInner}>
+          {/* <Header links={links}/> */}
             <TopText/>
             <p className={styles.subTitle}>안녕하세요 김명규입니다.</p>
             <Link href='#contacts' className={styles.button}>Contact me</Link>
@@ -67,7 +76,7 @@ export default function Home() {
           <div className={styles.projectsInner}>
           <div className={styles.grid}>
           <div className={styles.gridItem}>
-                <Link href="/main">
+                <Link href="/paper">
                   <div className={styles.gridItemInner}>
                     <img src="./main/links/paper-link.jpg"/>
                     <h3 className={styles.projectTitle}>롤링페이퍼 만들기</h3>
@@ -159,6 +168,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
     </>
   )
 }

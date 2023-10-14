@@ -1,3 +1,4 @@
+
 'use client'
 
 import Link from 'next/link'
@@ -7,46 +8,42 @@ import styles from './Header.module.css'
 export default function Header() {
   const [menu, setMenu] = useState(false)
 
-  const onClickMenu = () => {
+
+  const onClickMenu_P = () => {
     setMenu(!menu)
   }
 
   return (
     <>
-      <header className={styles.header}>
+    <header className={styles.header}>
         <div className={mainStyles.container}>
           <div className={`${styles.headerInner} ${menu ? styles.menuActive : ''}`}>
             <div className={styles.logo}>
-              <span className={styles.logoText}><Link href= "/">Portfolio</Link></span>
+              <span className={styles.logoText}><Link href= "https://portfolio-bice-omega-36.vercel.app/">Portfolio</Link></span>
             </div>
             
-            <button onClick={onClickMenu} className={styles.menuBtn}>
+            <button onClick={onClickMenu_P} className={styles.menuBtn}>
                 <span className={styles.btnLine}></span>
                 <span className={styles.btnLine}></span>
                 <span className={styles.btnLine}></span>
             </button>
             <ul className={styles.menu}>
               <li className={styles.menuItem}>
-                <Link onClick={onClickMenu} className={styles.menuLink} href={'#about'}>About</Link>
+                <Link onClick={onClickMenu_P} className={styles.menuLink} href={'#introduce'}>Introduce</Link>
               </li>
               <li className={styles.menuItem}>
-                <Link onClick={onClickMenu} className={styles.menuLink} href={'#projects'}>Projects</Link>
+                <Link onClick={onClickMenu_P} className={styles.menuLink} href={'#mission'}>Mission</Link>
               </li>
               <li className={styles.menuItem}>
-                <Link onClick={onClickMenu} className={styles.menuLink} href={'#Tech_stack'}>Tech stack</Link>
+                <Link onClick={onClickMenu_P} className={styles.menuLink} href={'#vision'}>Vision</Link>
               </li>
               <li className={styles.menuItem}>
-                <Link onClick={onClickMenu} className={styles.menuLink} href={'#contacts'}>Contact</Link>
+                <Link onClick={onClickMenu_P} className={styles.menuLink} href={'#Tech_stack'}>stack</Link>
               </li>
             </ul>
           </div>
         </div>
       </header>
-
-
-      
     </>
-  )
-}
-
-
+    )
+  }
