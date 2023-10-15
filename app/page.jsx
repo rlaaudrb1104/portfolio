@@ -76,10 +76,10 @@ export default function Home() {
           <div className={styles.projectsInner}>
           <div className={styles.grid}>
           <div className={styles.gridItem}>
-                <Link href="/paper">
+                <Link href="/ama">
                   <div className={styles.gridItemInner}>
                     <img src="./main/links/paper-link.jpg"/>
-                    <h3 className={styles.projectTitle}>롤링페이퍼 만들기</h3>
+                    <h3 className={styles.projectTitle}>AMA Service</h3>
                     
                   </div>
                 </Link>
@@ -161,7 +161,6 @@ export default function Home() {
                 </Link>
               </li>
               
-
             
               
             </ul>

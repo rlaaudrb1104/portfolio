@@ -10,7 +10,7 @@ export default function TopText_P() {
             <div className={styles.topTitleContainer}>
                 <div className={styles.topTitle}>
                     <Typewriter
-                        words={[`Roringpaper Project`]}
+                        words={[`Ask me anything`]}
                         typeSpeed={100}
                     />
                 </div>
@@ -18,11 +18,15 @@ export default function TopText_P() {
             <div className={styles.topTitleAdaptive}>
                 <div className={styles.topTitle}>
                     <Typewriter
-                        words={[`Poringpaper`]}
+                        words={[`Ask`]}
                         typeSpeed={100}
                     />
                     <Typewriter
-                        words={[`Project`]}
+                        words={[`me`]}
+                        typeSpeed={100}
+                    />
+                    <Typewriter
+                        words={[`anything`]}
                         typeSpeed={100}
                     />
                 </div>
