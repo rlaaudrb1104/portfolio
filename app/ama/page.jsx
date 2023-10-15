@@ -65,6 +65,7 @@ export default function Projects_Detail() {
           <p className={styles.text}>- 간단한 SNS를 만들어 볼 수 있다</p><br></br>
           </div>
           </div>
+          
           </section>
       
           <section id='Tech_stack' className={styles.Tech_stack}>
