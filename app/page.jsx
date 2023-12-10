@@ -38,13 +38,13 @@ export default function Home() {
                 관심분야
               </h3>
               <p className={styles.text}>
-                모의해킹, 침해대응
+                모의해킹, 취약점 분석
               </p>
               <h3 className={styles.subtitle}>
                 현재 하고있는 공부
               </h3>
               <p className={styles.text}>
-              Pwnable, Webheaking
+              Pwnable, Webhacking
               </p>
               <h3 className={styles.subtitle}>
                 활동 이력
@@ -57,6 +57,9 @@ export default function Home() {
               </p>
               <p className={styles.text}>
               SCP 동아리 부원으로 활동 중 입니다.
+              </p>
+              <p className={styles.text}>
+              제5회 TS 보안 허점을 찾아라 우수상 수상
               </p>
               <h3 className={styles.subtitle}>
                 취득 자격증
@@ -76,7 +79,7 @@ export default function Home() {
           <div className={styles.projectsInner}>
           <div className={styles.grid}>
           <div className={styles.gridItem}>
-                <Link href="/ama">
+                <Link href="https://2023-2-weblecture-project-git-ysc-yeo99.vercel.app?_vercel_share=kMfV3NsTMu5REKzB4ppHCDrXUPPEWdNA">
                   <div className={styles.gridItemInner}>
                     <img src="./main/links/paper-link.jpg"/>
                     <h3 className={styles.projectTitle}>AMA Service</h3>
@@ -97,6 +100,30 @@ export default function Home() {
                   <div className={styles.gridItemInner}>
                     <img src="./main/links/portfolio-link.jpg"/>
                     <h3 className={styles.projectTitle}>Portfolio</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className={styles.gridItem}>
+                <Link href="https://dapara-9bdfveo38-rlaaudrb1104.vercel.app/">
+                  <div className={styles.gridItemInner}>
+                    <img src="./main/links/dapara-link.jpg"/>
+                    <h3 className={styles.projectTitle}>Dapara Shopping</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className={styles.gridItem}>
+                <Link href="https://crud-dusky-five.vercel.app/signIn">
+                  <div className={styles.gridItemInner}>
+                    <img src="./main/links/CRUD-link.jpg"/>
+                    <h3 className={styles.projectTitle}>MongoDB CRUD</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className={styles.gridItem}>
+                <Link href="https://fluoridated-boa-f65.notion.site/e77a570eb1314c58874113f980ae6272?pvs=4">
+                  <div className={styles.gridItemInner}>
+                    <img src="./main/links/notion-link.jpg"/>
+                    <h3 className={styles.projectTitle}>개인 공부 Notion</h3>
                   </div>
                 </Link>
               </div>
